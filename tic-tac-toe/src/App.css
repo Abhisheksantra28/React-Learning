@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.block{
+  border: 2px solid ;
+  height: 5.5rem;
+  width: 5.5rem;
+  cursor: pointer;
+   display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+  /* background-color: aquamarine; */
+  
+}
+
+.row{
+  display: flex;  
+}
+
+.board{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* padding: 1.2rem; */
+  /* background-color: #b62222; */
+
+
+
+
+}
