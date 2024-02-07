@@ -11,7 +11,7 @@ const LandingPage = () => {
               {index === 1 && (
                 <div className="mr-[1vw] w-[8vw] h-[4vw] rounded bg-red-400"></div>
               )}
-              <h1 className="uppercase leading-[5vw] tracking-tighter font-semibold font-['FoundersGrotesk'] text-[5.6vw]">
+              <h1 className="uppercase leading-[5vw] tracking-tighter font-semibold text-[5.6vw]">
                 {item}
               </h1>
             </div>
@@ -19,7 +19,7 @@ const LandingPage = () => {
         ))}
       </div>
 
-      <div className="border-t-[1px] border-zinc-800 mt-32 flex items-center justify-between py-5 px-20  font-['FoundersGrotesk']">
+      <div className="border-t-[1px] border-zinc-800 mt-20 flex items-center justify-between py-5 px-20">
         {[
           "For public and private companies",
           "From the first pitch to IPO",
