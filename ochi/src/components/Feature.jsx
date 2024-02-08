@@ -1,6 +1,7 @@
 import React from "react";
 import FeatureImage02 from "../assets/FeatureImage02.jpg";
 import FeatureImage01 from "../assets/FeatureImage01.png";
+import { motion } from "framer-motion";
 
 const Feature = () => {
   return (
