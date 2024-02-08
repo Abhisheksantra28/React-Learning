@@ -5,3 +5,7 @@
 *{
     font-family: "FoundersGrotesk", "Roboto", sans-serif;;
 }
+
+::selection{
+    color: yellow;
+}
